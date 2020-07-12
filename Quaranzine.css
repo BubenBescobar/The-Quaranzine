@@ -102,9 +102,6 @@ body {
 	padding-bottom: 0.8%;
 	transition: all 0.3s linear;
 }
-.secondary_header ul li#two {
-	background-color: #CBAC93;
-}
 .secondary_header ul li#three {
 	background-color: #9D8CB7;
 }
