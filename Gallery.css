@@ -10252,4 +10252,10 @@ a.text-dark:hover, a.text-dark:focus {
 	text-decoration: none;
 	color: white;
 }
+
+#headerCrop {
+	height: 500px;
+	width: 1195.8px;
+	overflow: hidden;
+}
 /*# sourceMappingURL=bootstrap.css.map */
