@@ -4,7 +4,7 @@ body {
 }
 .container {
 	background-color: #FFFFFF;
-	width: 90%;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 	border-bottom-width: 0px;
@@ -71,14 +71,13 @@ body {
 	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	margin-bottom: 2%;
 	background-color: #FFFFFF;
 	clear: left;
 }
 .container .secondary_header ul {
 	margin-top: 0%;
 	margin-right: auto;
-	margin-bottom: 0px;
+	margin-bottom: 1.5%;
 	margin-left: auto;
 	padding-top: 0px;
 	padding-right: 0px;
@@ -91,7 +90,6 @@ body {
 .secondary_header ul li {
 	list-style: none;
 	float: right;
-	margin-top: 0px;
 	font-family: "Source Sans Pro";
 	font-weight: Bold;
 	color: #FFFFFF;
@@ -99,25 +97,21 @@ body {
 	margin-right: 2%;
 	text-align: center;
 	width: 10%;
-	padding-bottom: 0.8%;
+	padding-bottom: 1%;
 	transition: all 0.3s linear;
-}
-.secondary_header ul li#three {
-	background-color: #9D8CB7;
-}
-.secondary_header ul li#four {
-	background-color: #7D8E6F;
 }
 .secondary_header ul li:hover {
 	color: #717070;
-	cursor: pointer;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
 }
 .secondary_header #button {
 	text-decoration: none;
 	color: white;
 }
 .left_article {
-	background-color: #CBAC93;
+	background-color: #FFFFFF;
 	height: 330px;
 	width: 60%;
 	float: left;
@@ -169,7 +163,7 @@ body {
 .right_article {
 	width: 40%;
 	float: right;
-	background-color: #CBAC93;
+	background-color: #FFFFFF;
 	height: 345px;
 }
 .container .right_article ul {
@@ -216,11 +210,10 @@ body {
 	letter-spacing: 2px;
 }
 .placeholder {
-	max-width: 400px;
-	max-height: 400px;
+	max-width: 600px;
+	max-height: 500px;
 	width: 100%;
-	padding-left: 19px;
-	padding-bottom: 0px;
+	margin-top: 3.5%;
 	height: 90%;
 }
 .left_half {
