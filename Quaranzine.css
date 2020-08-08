@@ -119,9 +119,9 @@ body {
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
-.secondary_header #button {
-	text-decoration: none;
-	color: white;
+.secondary_header > img {
+	min-width: 120px;
+	min-height: ;
 }
 .left_article {
 	background-color: #FFFFFF;
