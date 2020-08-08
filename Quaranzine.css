@@ -67,6 +67,14 @@ body {
 	clear: left;
 	height: 450px;
 	overflow: hidden;
+	/* The image used */
+  	background-image: url("Screen Shot 2020-06-25 at 4.24.56 PM.png");
+	
+  	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 .primary_header > img {
 	width: 100%;
