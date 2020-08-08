@@ -65,7 +65,12 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	clear: left;
-	height: 350px;
+	height: 450px;
+	overflow: hidden;
+}
+.primary_header > img {
+	width: 100%;
+	margin-top: -20px;
 }
 .secondary_header {
 	width: 100%;
