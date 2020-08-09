@@ -10255,7 +10255,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 #headerCrop {
 	max-height: 500px;
-	max-width: 1195.8px;
+	max-width: 100%;
 	overflow: hidden;
 }
 /*# sourceMappingURL=bootstrap.css.map */
