@@ -66,6 +66,7 @@ body {
 	padding-bottom: 10px;
 	clear: left;
 	height: 500px;
+	margin-bottom: 15px;
 	overflow: hidden;
 	/* The image used */
   	background-image: url("Screen Shot 2020-06-25 at 4.24.56 PM.png");
