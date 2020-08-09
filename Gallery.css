@@ -10258,4 +10258,20 @@ a.text-dark:hover, a.text-dark:focus {
 	max-width: 100%;
 	overflow: hidden;
 }
+.footer {
+	background-color: #717070;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.copyright {
+	text-align: center;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-family: "Source Sans Pro";
+}
 /*# sourceMappingURL=bootstrap.css.map */
