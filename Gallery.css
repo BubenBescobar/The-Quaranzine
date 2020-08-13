@@ -10226,6 +10226,7 @@ a.text-dark:hover, a.text-dark:focus {
 	width: 96%;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-right: 15px;
 	margin-bottom: 3%;
 	background-color: #FFFFFF;
 	clear: left;
