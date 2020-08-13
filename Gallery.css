@@ -10240,7 +10240,7 @@ a.text-dark:hover, a.text-dark:focus {
 	letter-spacing: 1px;
 	margin-right: 2%;
 	text-align: center;
-	width: 10%;
+	width: 150px;
 	padding-bottom: 0.8%;
 	transition: all 0.3s linear;
 }
