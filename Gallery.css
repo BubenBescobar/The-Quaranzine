@@ -10275,4 +10275,9 @@ a.text-dark:hover, a.text-dark:focus {
 	border-top-width: 2px;
 	font-family: "Source Sans Pro";
 }
+
+.home_button {
+	float: left;
+	margin-bottom: 1%;
+}
 /*# sourceMappingURL=bootstrap.css.map */
