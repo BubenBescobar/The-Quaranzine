@@ -506,3 +506,8 @@ body {
 }
 #menu {
 }
+
+.home_button {
+	float: left;
+	margin-bottom: 1%;
+}
