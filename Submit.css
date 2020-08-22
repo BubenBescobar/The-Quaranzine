@@ -572,3 +572,8 @@ aside {
 	height: 400px;
 	display: inline-block;
 }
+
+.home_button {
+	float: left;
+	margin-bottom: 1%;
+}
