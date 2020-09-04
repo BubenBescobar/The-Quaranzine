@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Quaranzine | Vol. 1</title>
+<link href="Shop-I1.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Header -->
+  <header>
+    <nav class="secondary_header" id="menu">
+	  <a href="index.html" class="home_button"><img src="Logo_1.svg" width="380px" /></a>
+      <ul>
+        <li id="four"><a href="About.html"><img src="About_InActive_New.svg" alt="Click to submit your work to appear in our next issue" id="Image4" onMouseDown="MM_swapImage('Image4','','About_Active_New.svg',1)" onMouseOver="MM_swapImage('Image4','','About_Hover_New.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
+        <li id="three"><a href="Submit.html"><img src="Submit_InActive_New.svg" alt="Click to submit your work to appear in our next issue" id="Image3" onMouseDown="MM_swapImage('Image3','','Submit_Active_New.svg',1)" onMouseOver="MM_swapImage('Image3','','Submit_Hover_New.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
+        <li id="two"><a href="Gallery.html"><img src="Gallery_InActive_New.svg" alt="Click to submit your work to appear in our next issue" id="Image2" onMouseDown="MM_swapImage('Image2','','Gallery_Active_New.svg',1)" onMouseOver="MM_swapImage('Image2','','Gallery_Hover_New.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
+        <li id="one"><a href="Shop.html"><img src="Shop_InActive_New.svg" alt="Click to go to shop" id="Image1" onMouseDown="MM_swapImage('Image1','','Shop_Active_New.svg',1)" onMouseOver="MM_swapImage('Image1','','Shop_Hover_New.svg',1)" onMouseOut="MM_swapImgRestore()">
+		</a></li>
+		</ul>
+    </nav>
+  </header>
+<span class="left"></span>
+<span class="right"></span>
+<div id="product-component-1599250351043">
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'the-quaranzine-lit-mag.myshopify.com',
+      storefrontAccessToken: '9acc2f81c47d8e590f1464dbd65f8f97',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '5490326372505',
+        node: document.getElementById('product-component-1599250351043'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        },
+        "text-align": "left"
+      },
+      "title": {
+        "font-family": "Lora, serif",
+        "font-size": "31px"
+      },
+      "button": {
+        "font-family": "Lora, serif",
+        "font-weight": "bold",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        ":hover": {
+          "background-color": "#000297"
+        },
+        "background-color": "#000159",
+        ":focus": {
+          "background-color": "#000297"
+        },
+        "border-radius": "0px",
+        "padding-left": "38px",
+        "padding-right": "38px"
+      },
+      "quantityInput": {
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px"
+      },
+      "price": {
+        "font-family": "Big Caslon, serif",
+        "font-size": "24px"
+      },
+      "compareAt": {
+        "font-family": "Big Caslon, serif",
+        "font-size": "20.4px"
+      },
+      "unitPrice": {
+        "font-family": "Big Caslon, serif",
+        "font-size": "20.4px"
+      },
+      "description": {
+        "font-family": "Lora, serif",
+        "font-weight": "bold",
+		"line-height": "1.5"
+      }
+    },
+    "buttonDestination": "checkout",
+    "layout": "horizontal",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true,
+      "description": true
+    },
+    "width": "100%",
+    "text": {
+      "button": "buy now"
+    },
+    "googleFonts": [
+      "Lora"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Lora, serif",
+        "font-weight": "bold",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        ":hover": {
+          "background-color": "#000297"
+        },
+        "background-color": "#000159",
+        ":focus": {
+          "background-color": "#000297"
+        },
+        "border-radius": "0px",
+        "padding-left": "38px",
+        "padding-right": "38px"
+      },
+      "quantityInput": {
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px"
+      }
+    },
+    "googleFonts": [
+      "Lora"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Lora, serif",
+        "font-weight": "bold",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        ":hover": {
+          "background-color": "#000297"
+        },
+        "background-color": "#000159",
+        ":focus": {
+          "background-color": "#000297"
+        },
+        "border-radius": "0px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+    "googleFonts": [
+      "Lora"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Lora, serif",
+        "font-weight": "bold",
+        "background-color": "#000159",
+        ":hover": {
+          "background-color": "#000297"
+        },
+        ":focus": {
+          "background-color": "#000297"
+        }
+      },
+      "count": {
+        "font-size": "18px"
+      }
+    },
+    "googleFonts": [
+      "Lora"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+	</div>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2019 - <strong>THE QUARANZINE.</strong></div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
