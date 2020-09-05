@@ -31,20 +31,15 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
     </script>
-</head>
-<body>
-<!-- Main Container -->
-<div class="container"> 
-  <!-- Header -->
-  <nav class="secondary_header" id="menu">
-	  <a href="index.html" class="home_button"><img src="Logo_1.svg" width="380px" /></a>
+<body onLoad="MM_preloadImages('Buttons/Submit_Active.svg','Buttons/Submit_Hover.svg','Buttons/Submit_InActive.svg','Buttons/About_InActive.svg','Buttons/About_Hover.svg','Buttons/About_Active.svg','Buttons/Gallery_InActive.svg','Buttons/Gallery_Hover.svg','Buttons/Gallery_Active.svg','Buttons/Shop_InActive.svg','Buttons/Shop_Hover.svg','Buttons/Shop_Active.svg')">
+    <nav class="secondary_header" id="menu">
+	<a href="index.html" class="home_button"><img src="Buttons/Logo.svg" width="380px" /></a>
       <ul>
-        <li id="four"><a href="About.html"><img src="About_InActive_New.svg" alt="Click to submit your work to appear in our next issue" id="Image4" onMouseDown="MM_swapImage('Image4','','About_Active_New.svg',1)" onMouseOver="MM_swapImage('Image4','','About_Hover_New.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
-        <li id="three"><a href="Submit.html"><img src="Submit_InActive_New.svg" alt="Click to submit your work to appear in our next issue" id="Image3" onMouseDown="MM_swapImage('Image3','','Submit_Active_New.svg',1)" onMouseOver="MM_swapImage('Image3','','Submit_Hover_New.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
-        <li id="two"><a href="Gallery.html"><img src="Gallery_InActive_New.svg" alt="Click to submit your work to appear in our next issue" id="Image2" onMouseDown="MM_swapImage('Image2','','Gallery_Active_New.svg',1)" onMouseOver="MM_swapImage('Image2','','Gallery_Hover_New.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
-        <li id="one"><a href="Shop.html"><img src="Shop_InActive_New.svg" alt="Click to go to shop" id="Image1" onMouseDown="MM_swapImage('Image1','','Shop_Active_New.svg',1)" onMouseOver="MM_swapImage('Image1','','Shop_Hover_New.svg',1)" onMouseOut="MM_swapImgRestore()">
-		</a></li>
-		</ul>
+        <li id="four"><a href="About.html"><img src="Buttons/About_InActive.svg" alt="Click to submit your work to appear in our next issue" id="Image4" onMouseDown="MM_swapImage('Image4','','Buttons/About_Active.svg',1)" onMouseOver="MM_swapImage('Image4','','Buttons/About_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
+        <li id="three"><a href="Submit.html"><img src="Buttons/Submit_InActive.svg" alt="Click to submit your work to appear in our next issue" id="Image3" onMouseDown="MM_swapImage('Image3','','Buttons/Submit_Active.svg',1)" onMouseOver="MM_swapImage('Image3','','Buttons/Submit_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
+        <li id="two"><a href="Gallery.html"><img src="Buttons/Gallery_InActive.svg" alt="Click to submit your work to appear in our next issue" id="Image2" onMouseDown="MM_swapImage('Image2','','Buttons/Gallery_Active.svg',1)" onMouseOver="MM_swapImage('Image2','','Buttons/Gallery_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
+        <li id="one"><a href="Shop.html"><img src="Buttons/Shop_InActive.svg" alt="Click to go to shop" id="Image1" onMouseDown="MM_swapImage('Image1','','Buttons/Shop_Active.svg',1)" onMouseOver="MM_swapImage('Image1','','Buttons/Shop_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+      </ul>
     </nav>
   <!-- Hero Section -->
   <section class="intro">
