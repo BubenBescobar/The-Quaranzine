@@ -77,6 +77,9 @@ header {
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-family: essonnes-display, serif;
+	font-weight: 400;
+	font-style: normal;
 }
 .gallery .thumbnail p {
 	margin: 0;
@@ -148,7 +151,7 @@ header {
 	cursor: pointer;
 }
 .copyright {
-	text-align: center;
+    text-align: center;
     width: 100%;
     left: 5%;
     margin-bottom: 0px;
@@ -160,6 +163,9 @@ header {
     font-weight: lighter;
     letter-spacing: 2px;
     border-top-width: 2px;
+    font-family: essonnes-headline, serif;
+    font-weight: 700;
+    font-style: normal;
 }
 footer {
 	background-color: #B3B3B3;
@@ -180,6 +186,9 @@ footer {
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-family: essonnes-display, serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 /* Mobile */
@@ -196,6 +205,9 @@ footer {
 	width: 100%;
 	text-align: justify;
 	padding: 0;
+	font-family: essonnes-display, serif;
+	font-weight: 400;
+	font-style: normal;
 }
 .intro .column p {
 	width: 80%;
