@@ -87,6 +87,12 @@ header {
 	text-align: left;
 	padding-left: 20px;
 }
+.mobile-view {
+	display: none;
+}
+.expand {
+	display: block;
+}
 /* More info */
 .intro {
 	background-color: #FFFFFF;
@@ -193,6 +199,15 @@ footer {
 
 /* Mobile */
 @media (max-width: 320px) {
+.mobile-view {
+	display: block;
+}
+.desktop-view {
+	display: none;
+}
+.expand {
+	display: block;
+}
 .logo {
 	width: 100%;
 	text-align: center;
@@ -233,6 +248,15 @@ footer {
 
 /* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
+.mobile-view {
+	display: block;
+}
+.desktop-view {
+	display: none;
+}
+.expand {
+	display: block;
+}
 .logo {
 	width: 100%;
 	text-align: center;
