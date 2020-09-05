@@ -5,6 +5,13 @@ body {
 	background-color: #FFFFFF;
 	margin: 0;
 }
+.mobile-view {
+	display: none;
+}
+
+.expand {
+	display: block;
+}
 /* Container */
 .container {
 	width: 90%;
@@ -179,6 +186,23 @@ footer {
 
 /* Mobile */
 @media (max-width: 320px) {
+.mobile-view {
+	display: block;
+}
+.desktop-view {
+	display: none;
+}
+.expand {
+	display: block;
+}
+
+.secondary_header ul li {
+	float: none;
+	margin: -8.1% 0px 0px 8.0555%;
+	width: 92%;
+	align-content: center;
+	background-color: #000F52;
+}
 .logo {
 	width: 100%;
 	text-align: center;
@@ -223,6 +247,23 @@ footer {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+}
+.mobile-view {
+	display: block;
+}
+.desktop-view {
+	display: none;
+}
+.expand {
+	display: block;
+}
+
+.secondary_header ul li {
+	float: none;
+	margin: -8.1% 0px 0px 8.0555%;
+	width: 92%;
+	align-content: center;
+	background-color: #000F52;
 }
 .text_column {
 	width: 100%;
