@@ -36,15 +36,16 @@ body {
 }
 .columns {
 	width: 25%;
+	height: 350px;
 	float: left;
-	font-family: "Source Sans Pro";
+	font-family: essonnes-text, serif;
 	color: #FFFFFF;
 	background-color: #000f52;
 	line-height: 24px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: justify;
-	margin-top: 15px;
+	margin-top: 8px;
 	margin-bottom: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -69,13 +70,13 @@ body {
 	margin-bottom: 15px;
 	overflow: hidden;
 	/* The image used */
-  	background-image: url("Screen Shot 2020-06-25 at 4.24.56 PM.png");
-	
-  	/* Create the parallax scrolling effect */
-  	background-attachment: fixed;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
+  background-image: url("../Downloads/Screen Shot 2020-06-25 at 4.24.56 PM.png");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .primary_header > img {
 	width: 100%;
@@ -122,14 +123,13 @@ body {
 }
 .secondary_header > img {
 	min-width: 120px;
-	min-height: ;
 }
 .left_article {
 	background-color: #FFFFFF;
-	height: 330px;
+	height: 350px;
 	width: 60%;
 	float: left;
-	font-family: "Source Sans Pro";
+	font-family: essonnes-text, serif;
 	color: #343434;
 	padding-bottom: 15px;
 }
@@ -138,11 +138,11 @@ body {
 }
 .container .left_article h3 {
 	padding-left: 5%;
-	padding-right: 5%;
+	padding-right: 0%;
 	color: #717070;
 	font-weight: bold;
 	text-transform: uppercase;
-	width: 60%;
+	width: 50%;
 	padding-top: 2%;
 	padding-bottom: 1%;
 	background-color: #FFFFFF;
@@ -175,7 +175,7 @@ body {
 	/*Single spaced*/
 }
 .right_article {
-	width: 40%;
+	width: 45%;
 	float: right;
 	background-color: #FFFFFF;
 	height: 345px;
@@ -226,7 +226,9 @@ body {
 .placeholder {
 	max-width: 600px;
 	max-height: 500px;
+	float: right;
 	width: 100%;
+	padding-bottom: 0px;
 	margin-top: 3.5%;
 	height: 90%;
 }
@@ -235,12 +237,13 @@ body {
 }
 .container .column_half.left_half h1 {
 	color: #FFFFFF;
-	font-family: "Source Sans Pro";
+	font-family: essonnes-headline, serif;
+	
 	text-align: center;
 }
 .container .column_half.left_half h2 {
 	color: #FFFFFF;
-	font-family: "Source Sans Pro";
+	font-family: essonnes-text, serif;
 	text-align: center;
 }
 .right_half {
@@ -262,7 +265,9 @@ body {
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
-	font-family: "Source Sans Pro";
+	font-family: essonnes-headline, serif;
+	font-weight: 700;
+	font-style: normal;
 }
 body {
 	margin-top: 0px;
@@ -504,10 +509,26 @@ body {
 	cursor: pointer;
 	opacity: 0.5;
 }
-#menu {
-}
 
 .home_button {
 	float: left;
 	margin-bottom: 1%;
+}
+
+.credit {
+	width: 100%;
+	font-size: 18px;
+	padding-left: 5%;
+	margin-top: 1%;
+	margin-left: 8%;
+	color: gray;
+	font-weight: 500;
+}
+
+quote {
+	font-family: essonnes-text, serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 16px;
+	color: #676767
 }
