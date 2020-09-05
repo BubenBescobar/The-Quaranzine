@@ -4,10 +4,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Quaranzine | About</title>
-<link href="About.css" rel="stylesheet" type="text/css">
+<title>Light Theme</title>
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://use.typekit.net/fsd2uac.css">
-<link rel="icon" href="Logo_Icon.svg">
 	<script type="text/javascript">
 function MM_preloadImages() { //v3.0
   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
@@ -32,73 +31,79 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
     </script>
-<body onLoad="MM_preloadImages('Buttons/Submit_Active.svg','Buttons/Submit_Hover.svg','Buttons/Submit_InActive.svg','Buttons/About_InActive.svg','Buttons/About_Hover.svg','Buttons/About_Active.svg','Buttons/Gallery_InActive.svg','Buttons/Gallery_Hover.svg','Buttons/Gallery_Active.svg','Buttons/Shop_InActive.svg','Buttons/Shop_Hover.svg','Buttons/Shop_Active.svg')">
+</head>
+<body>
 <!-- Main Container -->
 <div class="container"> 
   <!-- Header -->
-    <nav class="secondary_header" id="menu">
-	<a href="index.html" class="home_button"><img src="Buttons/Logo.svg" width="380px" /></a>
+  <nav class="secondary_header" id="menu">
+	  <a href="index.html" class="home_button"><img src="Logo_1.svg" width="380px" /></a>
+	  <img src="Burger_InActive.svg" alt="Burger Drop Down Menu" class="mobile-view" alt="Click to view our options" id="Image6" onMouseDown="MM_swapImage('Image6','','Burger_Active.svg',1)" onMouseOver="MM_swapImage('Image6','','Burger_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"/>
+      <div class="desktop-view">
       <ul>
-        <li id="four"><a href="About.html"><img src="Buttons/About_InActive.svg" alt="Click to submit your work to appear in our next issue" id="Image4" onMouseDown="MM_swapImage('Image4','','Buttons/About_Active.svg',1)" onMouseOver="MM_swapImage('Image4','','Buttons/About_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
-        <li id="three"><a href="Submit.html"><img src="Buttons/Submit_InActive.svg" alt="Click to submit your work to appear in our next issue" id="Image3" onMouseDown="MM_swapImage('Image3','','Buttons/Submit_Active.svg',1)" onMouseOver="MM_swapImage('Image3','','Buttons/Submit_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
-        <li id="two"><a href="Gallery.html"><img src="Buttons/Gallery_InActive.svg" alt="Click to submit your work to appear in our next issue" id="Image2" onMouseDown="MM_swapImage('Image2','','Buttons/Gallery_Active.svg',1)" onMouseOver="MM_swapImage('Image2','','Buttons/Gallery_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
-        <li id="one"><a href="Shop.html"><img src="Buttons/Shop_InActive.svg" alt="Click to go to shop" id="Image1" onMouseDown="MM_swapImage('Image1','','Buttons/Shop_Active.svg',1)" onMouseOver="MM_swapImage('Image1','','Buttons/Shop_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
-      </ul>
+        <li id="four"><a href="About.html"><img src="About_Inactive_New.svg" alt="Click to submit your work to appear in our next issue" id="Image4" onMouseDown="MM_swapImage('Image4','','About_Active_New.svg',1)" onMouseOver="MM_swapImage('Image4','','About_Hover_New.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
+        <li id="three"><a href="Submit.html"><img src="Submit_Inactive_New.svg" alt="Click to submit your work to appear in our next issue" id="Image3" onMouseDown="MM_swapImage('Image3','','Submit_Active_New.svg',1)" onMouseOver="MM_swapImage('Image3','','Submit_Hover_New.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
+        <li id="two"><a href="Gallery.html"><img src="Gallery_Inactive_New.svg" alt="Click to submit your work to appear in our next issue" id="Image2" onMouseDown="MM_swapImage('Image2','','Gallery_Active_New.svg',1)" onMouseOver="MM_swapImage('Image2','','Gallery_Hover_New.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
+        <li id="one"><a href="Shop.html"><img src="Shop_Inactive_New.svg" alt="Click to go to shop" id="Image1" onMouseDown="MM_swapImage('Image1','','Shop_Active_New.svg',1)" onMouseOver="MM_swapImage('Image1','','Shop_Hover_New.svg',1)" onMouseOut="MM_swapImgRestore()">
+		</a></li>
+		</div>
+		</ul>
     </nav>
   <!-- Hero Section -->
-  <section class="intro">
-	  <h1 class="hero_text"> MEET THE TEAM</h1>
+  <section class="intro" style="overflow: hidden; position: relative; text-align: center;">
+	  <img src="team_background.jpg" style="width: 100%">
+	  <h1 class="hero_text" style="position: absolute; top: 40%; left: 35%;"> MEET THE TEAM</h1>
   </section>
   <!-- Stats Gallery Section -->
   <div class="gallery">
-    <div class="thumbnail"> <a href="#"><img src="bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-      <h4>Arianna Pe&#241;a</h4>
-      <p class="tag">She/Her/Hers</p>
-      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div class="thumbnail"> <a href="#"><img src="bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+    <div class="thumbnail"> <a href="#"><img src="IMG_5446.JPG" alt="" width="2000" class="cards"/></a>
       <h4>Samantha Correa</h4>
-      <p class="tag">She/Her/Hers</p>
-      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="tag">She/her/hers</p>
+      <p class="text_column">I've studied fashion design for 7 years and layout design for 3 years, and have constantly been regarded as a "font nerd."</p>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+    <div class="thumbnail"> <a href="#"><img src="IMG_5444.JPG" alt="" width="2000" class="cards"/></a>
+      <h4>Arianna Pe&#241;a</h4>
+      <p class="tag">She/her/hers</p>
+      <p class="text_column">I've always loved journalism and I'm your typical pop culture nerd; I am a big fan of Harry Potter, Star Wars, and History.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="IMG_5447.JPG" alt="" width="2000" class="cards"/></a>
       <h4>Malika Mckenney</h4>
-      <p class="tag">Pronouns</p>
-      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="tag">She/her/hers</p>
+      <p class="text_column">As Artistic Director, I managed the art and design for the 'zine. I also love to read, play guitar, and exercise.</p>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+    <div class="thumbnail" style="overflow: hidden"> <a href="#"><img src="IMG_5442.JPG" alt="" class="cards"/></a>
       <h4>Jefrany Dcatry</h4>
-      <p class="tag">She/Her/Hers</p>
-      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="tag">She/her/hers</p>
+      <p class="text_column">My inspiration comes from my dreams, goals, my favorite films, and the books I grew up reading!</p>
     </div>
   </div>
   <div class="gallery">
-    <div class="thumbnail"> <a href="#"><img src="bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+    <div class="thumbnail"> <a href="#"><img src="IMG_5443.JPG" alt="" width="2000" class="cards"/></a>
       <h4>Oraida Rodriguez</h4>
-      <p class="tag">Sher/Her/Hers</p>
-      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="tag">She/her/hers</p>
+      <p class="text_column">Hello! My name is Oraida Rodriguez and I am an Artistic Director for the Quaranzine. Fun Fact: I made the cover!</p>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-      <h4>Laila Mousa</h4>
-      <p class="tag">Pronouns</p>
-      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="thumbnail"> <a href="#"><img src="artsy gradpic (1).jpg" alt="" width="2000" class="cards"/></a>
+      <h4>Ruben Escobar</h4>
+      <p class="tag">He/him/his</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+    <div class="thumbnail"> <a href="#"><img src="IMG_5439.JPG" alt="" width="2000" class="cards"/></a>
       <h4>Tatiana Batista</h4>
-      <p class="tag">She/Her/Hers</p>
-      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="tag">She/her/hers</p>
+      <p class="text_column">Hello! My name is Tatiana Batista and I am the honorary Social Media Manager for the Quaranzine!</p>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-      <h4>Giovanna Pirucci</h4>
-      <p class="tag">Pronouns</p>
-      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="thumbnail"> <a href="#"><img src="IMG_5441.JPG" alt="" width="2000" class="cards"/></a>
+      <h4>Laila Mousa</h4>
+      <p class="tag">She/her/hers</p>
+      <p class="text_column">The lesser the lines, the more thought given. Poetry allows for me to play around with my own unspoken ideas.</p>
     </div>
   </div>
   <div class="gallery">
-    <div class="thumbnail"> <a href="#"><img src="bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-      <h4>Ruben Escobar</h4>
-      <p class="tag">He/Him/His</p>
-      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="thumbnail"> <a href="#"><img src="IMG_5440.JPG" alt="" width="2000" class="cards"/></a>
+      <h4>Giovanna Pirucci</h4>
+      <p class="tag">She/her/hers</p>
+      <p class="text_column">Hello! My name is Giovanna Pirucci and I am part of the Quaranzine staff!</p>
     </div>
   </div>
   <!-- Copyrights Section -->
