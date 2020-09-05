@@ -1,13 +1,7 @@
 // JavaScript Document
 
 $(document).ready(function(){
-	$('.mobile-view').click(function(){
-		$('.desktop-view').toggleClass('expand');
-	});
-});
-
-$(document).ready(function(){
-	$('.mobile-view').tap(function(){
+	$('.mobile-view').on('click',function(){
 		$('.desktop-view').toggleClass('expand');
 	});
 });
