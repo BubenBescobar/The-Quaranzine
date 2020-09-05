@@ -6,7 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="Quaranzine.css" />
 <link rel="stylesheet" href="https://use.typekit.net/fsd2uac.css">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="../Documents/Unnamed Site 2/HamburgerHelper.js"></script>
 <link rel="icon" href="Logo_Icon.svg">
 <title>The Quaranzine | Home</title>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -47,12 +48,15 @@ function MM_swapImage() { //v3.0
   <!-- Header -->
     <nav class="secondary_header" id="menu">
 	<a href="index.html" class="home_button"><img src="Buttons/Logo.svg" width="380px" /></a>
+      <img src="../Documents/Unnamed Site 2/Burger_InActive.svg" alt="Burger Drop Down Menu" class="mobile-view"/>
+      <div class="desktop-view">
       <ul>
         <li id="four"><a href="About.html"><img src="Buttons/About_InActive.svg" alt="Click to submit your work to appear in our next issue" id="Image4" onMouseDown="MM_swapImage('Image4','','Buttons/About_Active.svg',1)" onMouseOver="MM_swapImage('Image4','','Buttons/About_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
         <li id="three"><a href="Submit.html"><img src="Buttons/Submit_InActive.svg" alt="Click to submit your work to appear in our next issue" id="Image3" onMouseDown="MM_swapImage('Image3','','Buttons/Submit_Active.svg',1)" onMouseOver="MM_swapImage('Image3','','Buttons/Submit_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
         <li id="two"><a href="Gallery.html"><img src="Buttons/Gallery_InActive.svg" alt="Click to submit your work to appear in our next issue" id="Image2" onMouseDown="MM_swapImage('Image2','','Buttons/Gallery_Active.svg',1)" onMouseOver="MM_swapImage('Image2','','Buttons/Gallery_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"/></a></li>
         <li id="one"><a href="Shop.html"><img src="Buttons/Shop_InActive.svg" alt="Click to go to shop" id="Image1" onMouseDown="MM_swapImage('Image1','','Buttons/Shop_Active.svg',1)" onMouseOver="MM_swapImage('Image1','','Buttons/Shop_Hover.svg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
       </ul>
+      </div>
     </nav>
     <div class="primary_header" style="border-bottom: 6px solid rgb(0, 15, 82);">
       <!--<img src="Screen Shot 2020-06-25 at 4.24.56 PM.png" alt="Quaranzine Volume 1 Growth Cover"/>-->
