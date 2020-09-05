@@ -5,13 +5,6 @@ body {
 	background-color: #FFFFFF;
 	margin: 0;
 }
-.mobile-view {
-	display: none;
-}
-
-.expand {
-	display: block;
-}
 /* Container */
 .container {
 	width: 90%;
@@ -40,6 +33,13 @@ header {
 	text-align: center;
 	margin: 0;
 	letter-spacing: 4px;
+}
+.mobile-view {
+	display: none;
+}
+
+.expand {
+	display: block;
 }
 /* About Section */
 .text_column {
@@ -75,26 +75,31 @@ header {
 	margin-right: 1%;
 	border-radius: 3px;
 	padding-top: 20px;
-	border-bottom: 4px solid #6DC7D0;
+	border-bottom: 4px solid #000f31;
 }
 .gallery .thumbnail h4 {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	color: #52BAD5;
+	color: #000f31;
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-family: essonnes-display, serif;
+	font-weight: 400;
+	font-style: normal;
 }
 .gallery .thumbnail p {
 	margin: 0;
-	color: #B3B3B3;
+	color: #7B7B7B;
 	text-align: left;
 	padding-left: 20px;
 }
 /* More info */
 .intro {
-	background-color: #FFFFFF;
+	background-color: #000F52;
 	padding-bottom: 0px;
+	height: 600px;
+	
 }
 .column {
 	width: 50%;
@@ -102,30 +107,27 @@ header {
 	padding-top: 0px;
 	float: left;
 }
-.intro .column h3 {
-	color: #FFFFFF;
-	text-align: center;
-}
 .intro .column p {
-	color: #FFFFFF;
+	color: #000f31;
+	margin-left: 10%;
 }
 .cards {
 	width: 100%;
-	height: auto;
-	max-width: 400px;
-	max-height: 200px;
+	over-flow: hidden;
 	opacity: 0.8;
 }
 .intro .column p {
 	padding-left: 30px;
 	padding-right: 30px;
 	text-align: justify;
-	line-height: 25px;
-	font-weight: lighter;
+	line-height: 24px;
 	margin-left: 20px;
 	margin-right: 20px;
 	width: 80%;
 	margin-top: 4%;
+	font-family: essonnes-display, serif;
+	font-weight: 400;
+	font-style: normal;
 }
 .button {
 	width: 200px;
@@ -154,14 +156,19 @@ header {
 }
 .copyright {
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #717070;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	font-weight: lighter;
-	letter-spacing: 2px;
-	border-top-width: 2px;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #717070;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+	font-family: essonnes-headline, serif;
+	font-weight: 700;
+	font-style: normal;
 }
 footer {
 	background-color: #B3B3B3;
@@ -170,7 +177,7 @@ footer {
 }
 .intro {
 	display: inline-block;
-	background-color: #000f31;
+	color: #000f31;
 }
 .profile {
 	width: 100%;
@@ -182,27 +189,13 @@ footer {
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-family: essonnes-display, serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 /* Mobile */
 @media (max-width: 320px) {
-.mobile-view {
-	display: block;
-}
-.desktop-view {
-	display: none;
-}
-.expand {
-	display: block;
-}
-
-.secondary_header ul li {
-	float: none;
-	margin: -8.1% 0px 0px 8.0555%;
-	width: 92%;
-	align-content: center;
-	background-color: #000F52;
-}
 .logo {
 	width: 100%;
 	text-align: center;
@@ -214,11 +207,16 @@ footer {
 .text_column {
 	width: 100%;
 	text-align: justify;
+	margin-left: 5%;
 	padding: 0;
+	font-family: essonnes-display, serif;
+	font-weight: 400;
+	font-style: normal;
 }
 .intro .column p {
 	width: 80%;
-	margin-left: 0px;
+	margin-left: 30%;
+	color: #000f31;
 }
 .text_column {
 	padding-left: 20px;
@@ -236,18 +234,11 @@ footer {
 	line-height: 22px;
 	text-align: center;
 }
+
 }
 
 /* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
-.logo {
-	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
 .mobile-view {
 	display: block;
 }
@@ -257,13 +248,13 @@ footer {
 .expand {
 	display: block;
 }
-
-.secondary_header ul li {
-	float: none;
-	margin: -8.1% 0px 0px 8.0555%;
-	width: 92%;
-	align-content: center;
-	background-color: #000F52;
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
 }
 .text_column {
 	width: 100%;
@@ -326,6 +317,7 @@ footer {
 	padding-bottom: 20px;
 	background-color: #FFFFFF;
 	clear: left;
+	margin-bottom: 5%;
 }
 .container .secondary_header ul {
 	margin-top: 0%;
@@ -373,16 +365,61 @@ footer {
 	text-align: left;
 	padding-top: 5%;
 	padding-left: 8.7%;
+	font-family: essonnes-display, serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+diff {
+	font-size: 27px;
+	margin-left: 0.5%;
 }
 
 h1.hero_text {
 	color: white;
-	text-align: center;
-	padding-top: 15%;
-	padding-bottom: 15%;
 	font-size: 30px;
 }
 
 section.intro {
 	width: 100%;
+	margin-bottom: 2%;
+}
+
+h2.price {
+	color: dark gray;
+	font-family: essonnes-display, serif;
+	font-weight: 500;
+	font-style: normal;
+	text-align: left;
+	margin-left: 9%;
+	font-size: 30px;
+}
+
+strike {
+	margin-left: ;
+	font-size: 26px;
+	color: gray;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: left;
+	margin-left: 7%;
+	color: 4c4c4c;
+	font-family: essonnes-display, serif;
+	font-weight: 700;
+	font-style: normal;
+	margin-bottom: -0.5%;
+}
+
+p {
+	font-family: essonnes-text, serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+quote {
+	font-family: essonnes-text, serif;
+	font-weight: 400;
+	font-style: italic;
 }
