@@ -113,12 +113,14 @@ header {
 	padding-left: 30px;
 	padding-right: 30px;
 	text-align: justify;
-	line-height: 25px;
-	font-weight: lighter;
+	line-height: 24px;
 	margin-left: 20px;
 	margin-right: 20px;
 	width: 80%;
 	margin-top: 4%;
+	font-family: essonnes-display, serif;
+	font-weight: 400;
+	font-style: normal;
 }
 .button {
 	width: 200px;
@@ -147,14 +149,17 @@ header {
 }
 .copyright {
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #717070;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	font-weight: lighter;
-	letter-spacing: 2px;
-	border-top-width: 2px;
+    width: 100%;
+    left: 5%;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #717070;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border-top-width: 2px;
 }
 footer {
 	background-color: #B3B3B3;
@@ -285,6 +290,7 @@ footer {
 	padding-bottom: 20px;
 	background-color: #FFFFFF;
 	clear: left;
+	margin-bottom: 5%;
 }
 .container .secondary_header ul {
 	margin-top: 0%;
@@ -332,4 +338,28 @@ footer {
 	text-align: left;
 	padding-top: 5%;
 	padding-left: 8.7%;
+	font-family: essonnes-display, serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+diff {
+	font-size: 27px;
+	margin-left: 0.5%;
+}
+
+h1.hero_text {
+	color: white;
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	font-size: 30px;
+}
+
+section.intro {
+	width: 100%;
+}
+
+span.left {
+	
 }
