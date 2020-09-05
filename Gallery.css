@@ -63,6 +63,14 @@ body {
   background-color: #fff;
 }
 
+.mobile-view {
+	display: none;
+}
+
+.expand {
+	display: block;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -1981,6 +1989,22 @@ pre code {
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
+  .mobile-view {
+	display: block;
+}
+.desktop-view {
+	display: none;
+}
+.expand {
+	display: block;
+}
+.secondary_header ul li {
+	float: none;
+	margin: -8.1% 0px 0px 8.0555%;
+	width: 92%;
+	align-content: center;
+	background-color: #000F52;
+}
 }
 
 @media (max-width: 767.98px) {
