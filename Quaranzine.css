@@ -6,9 +6,6 @@ body {
 	float: left;
 	margin-bottom: 1%;
 }
-.left_article {
-	width: 50%;
-}
 
 .credit {
 	width: 100%;
@@ -160,7 +157,7 @@ quote {
 .left_article {
 	background-color: #FFFFFF;
 	height: 350px;
-	width: 60%;
+	width: 50%;
 	float: left;
 	font-family: essonnes-text, serif;
 	color: #343434;
