@@ -42,6 +42,23 @@ header {
 	margin: 0;
 	letter-spacing: 4px;
 }
+
+h2.price {
+	color: dark gray;
+	font-family: essonnes-display, serif;
+	font-weight: 500;
+	font-style: normal;
+	text-align: left;
+	margin-left: 9%;
+	font-size: 30px;
+}
+
+strike {
+	margin-left: ;
+	font-size: 26px;
+	color: gray;
+}
+
 /* About Section */
 .text_column {
 	width: 90%;
@@ -213,6 +230,11 @@ footer {
 	align-content: center;
 	background-color: #000F52;
 }
+	
+h2.price {
+	text-align: center;
+}
+	
 .logo {
 	width: 100%;
 	text-align: center;
@@ -419,22 +441,6 @@ h1.hero_text {
 section.intro {
 	width: 100%;
 	margin-bottom: 2%;
-}
-
-h2.price {
-	color: dark gray;
-	font-family: essonnes-display, serif;
-	font-weight: 500;
-	font-style: normal;
-	text-align: left;
-	margin-left: 9%;
-	font-size: 30px;
-}
-
-strike {
-	margin-left: ;
-	font-size: 26px;
-	color: gray;
 }
 
 h1 {
