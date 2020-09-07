@@ -74,7 +74,7 @@ body {
 .secondary_header ul li {
 	list-style: none;
 	float: right;
-	margin-top: 0px;
+	margin-top: -16px;
 	font-family: "Source Sans Pro";
 	font-weight: Bold;
 	color: #FFFFFF;
