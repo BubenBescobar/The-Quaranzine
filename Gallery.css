@@ -191,7 +191,8 @@ body {
 }
 
 .Photo_Medium_Top:hover #Photo_Medium_Top {
-  opacity: 0.6;
+  opacity: 0.5;
+  filter:brightness(50%)
 }
 
 
