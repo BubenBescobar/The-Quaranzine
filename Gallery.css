@@ -93,21 +93,6 @@ body {
 	display: block;
 }
 
-.desktop-view {
-	list-style: none;
-	float: right;
-	margin-top: 0px;
-	font-family: "Source Sans Pro";
-	font-weight: Bold;
-	color: #FFFFFF;
-	letter-spacing: 1px;
-	margin-right: 2%;
-	text-align: center;
-	width: 150px;
-	padding-bottom: 0.8%;
-	transition: all 0.3s linear;
-}
-
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
