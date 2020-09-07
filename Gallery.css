@@ -87,7 +87,8 @@ body {
 }
 
 .desktop-view {
-	width: 10%;
+	width: 150px;
+	list-style: none;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
