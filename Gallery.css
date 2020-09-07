@@ -110,7 +110,7 @@ body {
 }
 
 .Photo_Small:hover #Photo_Small {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 #Photo_Medium {
@@ -124,7 +124,7 @@ body {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 73%;
+  top: 74%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -137,7 +137,34 @@ body {
 }
 
 .Photo_Medium:hover #Photo_Medium {
-  opacity: 0.5;
+  opacity: 0.6;
+}
+
+#Photo_Large {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.Photo_Large_Description {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.Photo_Large:hover .Photo_Large_Description {
+  opacity: 1;
+}
+
+.Photo_Large:hover #Photo_Large {
+  opacity: 0.6;
 }
 
 .mobile-view {
