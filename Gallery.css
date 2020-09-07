@@ -82,6 +82,14 @@ body {
 	display: none;
 }
 
+.expand {
+	display: block;
+}
+
+.desktop-view {
+	width: 10%;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
