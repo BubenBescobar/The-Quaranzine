@@ -3,15 +3,25 @@
 <head>
 <meta charset="utf-8">
 <title>You Got Got</title>
-	<link href="Prank.css" rel="stylesheet" type="text/css">
+<script>
+	  var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }
+	</script>
 </head>
 
-<body style="background-color: black; width: 100%;">
-	<embed name="you got got hoe" src="Smash Mouth - All Star.mp3" width="150" height="90" loop="true" autostart="true" style="visibility: hidden;">
-	<div style="position: absolute; left: 35%;">
-		<video width="100%" autoplay>
-			<source src="redditsave.com-meow_irl-mhogbpazd1s51.mp4" type="video/mp4"/>
-		</video>
+<body style="background-color: black;">
+	<iframe src="Smash Mouth - All Star.mp3" allow="autoplay" style="display:none; visibility: hidden;" id="iframeAudio">
+</iframe> 
+	<audio controls autoplay style="display: none; visibility: none;">
+	<source src="Smash Mouth - All Star.mp3" type="audio/mpeg"/>
+	</audio>
+	<div style="position: absolute; left: 35%; top: 35%;">
+		<img src="redditsave.com-meow_irl-mhogbpazd1s51.gif" alt="Loser" /> 
 	</div>
 </body>
 </html>
