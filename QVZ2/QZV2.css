@@ -1,0 +1,128 @@
+/* CSS Document */
+body {
+	width: 99%;
+	background-color: #040D06;
+}
+
+.logo {
+	margin-top: 1.5%;
+	margin-left: 3%;
+	width: 7%;
+	font-size:100px;
+	fill:#fff;
+	font-family: roboto, sans-serif;
+	font-weight:800;
+	letter-spacing:0.01em;
+}
+
+div.buttons {
+	display: block;
+	margin-left: 46%;
+	margin-top: -4%;
+}
+
+.button {
+	height: 35px;
+	max-width: 125;
+	float: left;
+	margin-left: 15px;
+}
+
+ul {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+header {
+	height: 40px;
+	z-index: 100;
+}
+
+header > li {
+	margin-right: 20px;
+}
+
+div.product-preview {
+	background-color: #35692F;
+	margin-top: 3.5%;
+    margin-left: -10px;
+    width: 87%;
+    height: fit-content;
+	z-index: -1;
+	position: absolute;
+	overflow: hidden;
+}
+
+img.product {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	z-index: -1;
+	position: relative;
+	margin-bottom: -10px;
+}
+
+.productDescription {
+	position: absolute;
+	z-index: 100;
+	height: 55%;
+	top: 10%;
+	left: 62%;
+}
+
+div.socials {
+	height: 48px;
+	width: 90%;
+	position: absolute;
+	top: 92.5%;
+	margin-left: 1.8%;
+}
+
+img.socials {
+	height: 100%;
+}
+
+div.credit{
+	height: 48px;
+	width: 50%;
+	position: absolute;
+	top: 93%;
+	margin-left: 25%;
+}
+
+svg.credit {
+	height: 100%;
+}
+
+div.footerButtons {
+	height: 48px;
+	width: 31%;
+	position: absolute;
+	top: 94%;
+	margin-left: 68%;
+}
+
+img.footerButton {
+	height: 25px;
+	float: left;
+	margin-right: 1%;
+}
+
+@media (max-width: 320px) {
+	
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+	
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+	
+}
+
+@media (min-width: 1001px){
+	
+}
