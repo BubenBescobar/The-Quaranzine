@@ -111,6 +111,33 @@ img.footerButton {
 	margin-right: 1%;
 }
 
+.submitArt {
+	height: 650px;
+    position: absolute;
+    top: 18%;
+    left: 15%;
+}
+
+.submitGuide {
+	height: 650px;
+	margin-left: 60%;
+	margin-top: 5%;
+}
+
+.submitGuide#SUBMIT_email {
+	height: 20px;
+	position: absolute;
+	margin-top: 9.7%;
+	margin-left: -25.4%;
+}
+
+.submitGuide#SUBMIT_email:hover {
+	height: 25.14px;
+	position: absolute;
+	bottom: 69.25%;
+	
+}
+
 @media (max-width: 320px) {
 	
 }
